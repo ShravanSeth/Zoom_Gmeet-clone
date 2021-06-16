@@ -24,7 +24,7 @@ navigator.mediaDevices
 
 		socket.on('user-connected', (userId) => {
 			connectToNewUser(userId, stream)
-			alert('A New User connected', userId)
+			alert('Somebody connected', userId)
 		})
 
 		peer.on('call', (call) => {
